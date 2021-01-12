@@ -1,0 +1,166 @@
+{% load static %}
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Strata by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<link rel="stylesheet" href="{% static 'css/main.css' %}" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src= "{% static 'images/pic.JPG' %}" alt="" /></a>
+					<h1><strong>I am Vishav Lakhtia</strong>, a software developer<br />
+					It's kind of fun to do the impossible.<br /></h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>About Me.</h2>
+						</header>
+						<p>Since beginning my journey in this field, my dedication to the work and motivation to grow have led me to exceptional projects and experiences. Take a moment to explore my portfolio below, which includes a combination of collaborations, commissioned work and side projects. Don’t hesitate to reach out if you’d like to learn more.</p>
+						<ul class="actions">
+							<li><a href="https://www.linkedin.com/in/vishav676/" class="button">Linkedin</a></li>
+						</ul>
+					</section>
+
+				<!-- Two -->
+					<section id="two">
+						<h2>Experience</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Android Developer Intern</h3>
+                                <p>Erasmus Life Budapest (July 2020 - Present)</p>
+								<p>Working on android applications using Java. </p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Project Management Web Application</h3>
+								<p>A full stack web application to track the progress in task developed using Django, HTML, CSS, JS, Python.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Book Store</h3>
+								<p>Android Application in Kotlin for Books Store to manage Books and Customers</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Barcode</h3>
+								<p>Working on Barcode Scanner application as an Intern In Erasmus Life Budapest. To allow organization to validate tickets by the QR code.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Final Project</h3>
+								<p>In this project, you will create an app with multiple flavors that uses multiple libraries and Google Cloud Endpoints. The finished app will consist of four modules. A Java library that provides jokes, a Google Cloud Endpoints (GCE) project that serves those jokes, an Android Library containing an activity for displaying jokes, and an Android app that fetches jokes from the GCE module and passes them to the Android Library for display</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Event Management</h3>
+								<p>This project was part of my University course. This allow users to manage the tickets to event and calculate sale. With the help of this application one can easily organize the events and prepare guest list without any hustle.</p>
+							</article>
+						</div>
+						<ul class="actions">
+							<li><a href="https://github.com/vishav676" class="button">GitHub</a></li>
+						</ul>
+					</section>
+
+				<!-- Three -->
+
+
+
+					<section id="three">
+						<h2>Certifications</h2>
+
+						<section>
+							<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="{% static 'images/android.jpg' %}" class="image fit thumb"><img src="{% static 'images/android.jpg' %}" alt="" /></a>
+								<h3>Android Developer Nanodegree, Udacity Co-created with Google</h3>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="{% static 'images/c#.PNG' %}" class="image fit thumb"><img src="{% static 'images/c#.PNG' %}" alt="" /></a>
+								<h3>Introduction to C#, Microsoft</h3>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="{% static 'images/python.PNG' %}" class="image fit thumb"><img src="{% static 'images/python.PNG' %}" alt="" /></a>
+								<h3>Introduction to computer Science and Programming Using Python, MIT</h3>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="{% static 'images/stanford.PNG' %}" class="image fit thumb"><img src="{% static 'images/stanford.PNG' %}"alt="" /></a>
+								<h3>Algorithms, Stanford University</h3>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="{% static 'images/technical.PNG' %}" class="image fit thumb"><img src="{% static 'images/technical.PNG' %}" alt="" /></a>
+								<h3>Technical Support Fundamentals, Google</h3>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="{% static 'images/Huawei.JPG' %}" class="image fit thumb"><img src="{% static 'images/Huawei.JPG' %}" alt="" /></a>
+								<h3>Huawei Seeds For the Future Program, Huawei.</h3>
+                            </article>
+						</div>
+						</section>
+                    </section>
+                    <section id="four">
+						<h2>Get In Touch</h2>
+						<p>I typically reply to all email inquiries within 24 hours.</p>
+						<div class="row">
+							<div class="col-8 col-12-small">
+								<form method="post" action="#">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+									</div>
+								</form>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</div>
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+										Podmaniczky Utca 12<br />
+										1065, Budapest<br />
+										Hungary
+									</li>
+									<li>
+										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+										+36203174735
+									</li>
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+										<a href="#">vishav676@gmail.com</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+                    </section>
+            </div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://github.com/vishav676" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/vishav676/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+						<li><a href="vishav676@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="{% static 'js/jquery.min.js' %}"></script>
+			<script src="{% static 'js/jquery.poptrox.min.js' %}"></script>
+			<script src="{% static 'js/main.js' %}"></script>
+			<script src="{% static 'js/util.js' %}"></script>
+			<script src="{% static 'js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'js/browser.min.js' %}"></script>
+
+	</body>
+</html>
